@@ -11,4 +11,7 @@ routes.get("/books/:id", bookController.findbyId);
 
 routes.delete("/books/:id", bookController.delete);
 
+routes.put("/books/:id", bookController.update);
+
+
 export { routes };
